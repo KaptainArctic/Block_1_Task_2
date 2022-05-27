@@ -12,5 +12,6 @@ if m>0:
     print("found simbol 'c'")
 else:
     print("simbol 'c' not foud")
+print("string leangh ->", len(string))
 
 
