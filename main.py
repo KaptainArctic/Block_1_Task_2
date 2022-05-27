@@ -7,6 +7,8 @@ for i in string:
         continue
     if i == 'c':
        m = m + 1
+    if n == len(string):
+        break
     print(i)
 if m>0:
     print("found simbol 'c'")
